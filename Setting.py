@@ -27,10 +27,6 @@ RUNNING_ALG = RUNNING_ALGS[4]
 #Model selection
 models=["split_LSTM"]
 MODEL_AE=models[0]
-# #Metric selection
-# CDKT_metrics = ["KL","Norm2","JSD","Cos","Con"]
-# Global_CDKT_metric = CDKT_metrics[0]   # Global distance metric
-# Local_CDKT_metric = CDKT_metrics[0]    # Local distance metric
 
 PUBLIC_RATIO=1
 #Algorithm Parameter
