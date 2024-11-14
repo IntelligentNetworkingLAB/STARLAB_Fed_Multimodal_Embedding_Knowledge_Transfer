@@ -119,7 +119,7 @@ def main(experiment, dataset, algorithm, model, model_server, embedding_layer, e
             return
 
         server.train()
-        # server.test()
+        
 
     # average_data(num_users=numusers, loc_ep1=local_epochs, Numb_Glob_Iters=num_glob_iters, lamb=L_k,learning_rate=learning_rate, beta = beta, algorithms=algorithm, batch_size=batch_size, dataset=dataset, k = K, personal_learning_rate = personal_learning_rate,times = times, cutoff = cutoff)
 
