@@ -63,8 +63,6 @@ def plot_ur_fall():
     mmfedEKTRgbDepth_testDepth = read_data(RS_PATH + name['mmfedEKT_rgb_depth_testdepth'])
 
 
-    # print("CDKTKLN Global :", f_data['root_test'][12])
-    # print("CDKTKLN C-GEN:", f_data['cg_avg_data_test'][XLim - 1])
 
     ax1.plot(mmfedavgAcceRgb_testAcce['root_test'], label="Mm-FedAvg(Acce)",  color=color["gen"], marker=marker["gen"],
              markevery=markers_on)
